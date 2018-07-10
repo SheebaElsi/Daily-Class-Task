@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Quiz Questions</title>
+<h3><b><center>Select the right answer</center></b></h3>
+</head>
+<body>
+<p><b>1.Another name for a tidal wave is a?</b></p>
+<p id="demo"><p>
+
+<input id="q1" type="radio" name="text">Ocean Wave
+<input id="q11" type="radio" name="text">
+Tsunami<br><br>
+
+<p><b>2.What is the 7th element on the periodic table of elements?</b></p>
+<input id="q2" type="radio" name="text"  >Nitrogen
+<input id="q22" type="radio" name="text"  >Sulphur
+
+<p><b>3.The fastest land animal in the world is the zebra.</b></p>
+<input id="q3" type="radio" name="text"  >True
+<input id="q33" type="radio" name="text"  >Faslse
+
+<p><b>4. Pure water has a pH level of a around?</b></p>
+<input id="q4" type="radio" name="text"  >14
+<input id="q44" type="radio" name="text"  >7
+<br><br>
+
+<p><b>5.The fear of what animal is known as ‘arachnophobia’?</b></p>
+<input id="q5" type="radio" name="text"  >Crocodile
+<input id="q55" type="radio" name="text"  >Spider
+<button type="submit" onclick="pass2()">submit</button><br>
+
+
+
+<script>
+function pass2(){ bgcolor="lightgreen";
+var count=0;
+if(q1.checked){count=count+1;}
+if(q2.checked){count=count+1;}
+if(q33.checked){count=count+1;}
+if(q4.checked){count=count+1;}
+if(q55.checked){count=count+1;}
+document.write("Hello,your Result out of 5 is:"+count);
+}
+</script>
+</html>
