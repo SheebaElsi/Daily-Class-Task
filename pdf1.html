@@ -1,0 +1,50 @@
+<html>
+<body>
+<title>page1</title>
+<head>
+<style>
+div
+{
+border-style: solid;
+border-width: thick;
+
+background-color:thistle;
+}
+</style>
+</head>
+<body >
+<form >
+<div>
+<h1><bold><center>FORM 1</center></bold></h1>
+<center>
+<img src="sheeba.jpg" height="200" alt="Avatar" width="150" border = "5"></center><br><br>
+<br>
+<b>NAME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b><input type="text" size="30"  name="name" maxlength="20"> 
+<br>
+<br>
+<br>
+<b>PASSWORD &nbsp;:</b><input type="password" name="*"><br><br><br>
+<b>DOB &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b><input type="date" name="birth day"><br><br><br>
+
+<b>GENDER&nbsp;:</b><br><input type="radio" name="gender" value="male">male<br>
+<input type="radio" name="gender" value="female">female<br>
+<input type="radio" name="gender" value="others">others<br>
+<br><br>
+
+<br><br>
+<b>HOBBIES &nbsp;&nbsp;&nbsp;&nbsp;:</b><br> <input type="checkbox" name="hobby" value="drawing" />Painting
+<br><input type="checkbox" name="hobby" value="doing crafts" />Singing
+<br><input type="checkbox" name="hobby" value="reading books" />Keyboard<br><br>
+<a href="pdf2.html">Proceed</a><br><br>
+<button onclick="elsi()">Convert to PDF</button>
+<script>
+function elsi()
+{
+window.print("pdf1.html");
+}
+</script>
+</div>
+</form>
+</body>
+</html>
+
